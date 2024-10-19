@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <meta name="description" content="" >
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/plugin/nice-select/nice-select.css">
+    <link rel="stylesheet" href="./assets/plugin/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/plugin/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/plugin/nouislider/nouislider.min.css">
+    <link rel="stylesheet" href="./assets/plugin/slick/slick.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+      <!-- Header Section Start -->
+      <header class="bg-white header-container">
+        <div class="offer-slider-section d-none d-sm-none d-md-none d-lg-block">
+            <div class="owl-carousel owl-theme offer-slider text-center">
+                <div class="mt-2 d-flex justify-content-center">
+                    <svg width="22px" class="text-white mr-2 transition-transform transform hover:translate-y-n2 hover:text-primary" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path>
+                        <circle cx="9" cy="13" r="1"></circle>
+                        <circle cx="15" cy="13" r="1"></circle>
+                        <path d="M18 11.03A6.04 6.04 0 0 0 12.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 0 0 4.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path>
+                    </svg>
+                    <span class="mt-1">
+                        Need Help? Support Open 24/7 
+                    </span>
+                </div>
+                <div class="mt-2"> 
+                    <svg width="22px" class="text-white mr-2" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                        <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                        <path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5"></path>
+                        <path d="M3 9l4 0"></path>
+                    </svg>
+                    <span class="mt-1">
+                        Free Shipping On All Orders 
+                    </span>
+                </div>
+            </div>
+        </div>
+         <div class="container-fluid  border">
+            <div class="d-block d-sm-block d-md-block d-lg-flex py-3">
+                <div class="container-left">
+                    <div class="text-center text-sm-center text-md-center text-lg-left">
+                       <a href="index.html">
+                           <img src="./assets/images/logo.png" alt="logo">
+                       </a>
+                    </div>
+                </div>
+                <div class="container-right">
+                    <div class="row">
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-8 pl-0 main-menu">
+                         <a href="#" class="d-table d-sm-table d-md-table d-lg-none mt-2 menu-toggle ml-4"><i class="fas fa-bars"></i> </a>
+                         <ul class="nav d-none d-sm-none d-md-none d-lg-flex">
+                             <li class="nav-item">
+                               <a class="nav-link mr-3" href="index.html">Home</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link mr-3" href="shop.html">Glod</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link mr-3" href="shop.html">Diamond</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link mr-3" href="shop.html">Platinum</a>
+                             </li>
+                             <li class="nav-item">
+                                <a class="nav-link mr-3" href="#">Page</a>
+                                <div>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Main Page</a>
+                                            <div>
+                                                <ul class="list-unstyled">
+                                                    <li><a href="shop.html">Shop</a></li>
+                                                    <li><a href="checkout.html">Checkout</a></li>
+                                                    <li><a href="shop-single.html">Shop Details</a></li>
+                                                    <li><a href="cart.html">Cart</a></li>
+                                                    <li><a href="wishlist.html">Wishlist</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">Account</a>
+                                            <div>
+                                                <ul class="list-unstyled">
+                                                    <li><a href="signup.html">Signup</a></li>
+                                                    <li><a href="login.html">Login</a></li>
+                                                    <li><a href="forgot-password.html">Forgot Password</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">Blog Page</a>
+                                            <div>
+                                                <ul class="list-unstyled">
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="blog-single.html">Blog Details</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="about.html">About Us</a></li>
+                                    </ul>
+                                </div>
+                             </li>
+                         </ul>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+                         <ul class="nav justify-content-end">
+                             <li class="nav-item">
+                               <a class="nav-link" href="#" data-toggle="modal" data-target="#searchModal"> <i class="fas fa-search"></i> </a>
+                             </li>
+                             <li class="nav-item">
+                                <a class="nav-link" href="login.html"> <i class="far fa-user"></i></i> </a>
+                              </li>
+                             <li class="nav-item">
+                               <a class="nav-link font-weight-bold d-flex" href="cart.html"><i class="fas fa-shopping-cart mt-1"></i> <span class="d-none d-sm-none d-md-none d-lg-block ml-0 ml-sm-0 ml-md-0 ml-lg-2"><span>0</span> <span>items</span></span> </a>
+                             </li>
+                           </ul>
+                           <div class="search-container">
+                             <!-- Modal -->
+                             <div class="modal fade" id="searchModal" tabindex="-1" aria-hidden="true">
+                                 <div class="modal-dialog modal-xl">
+                                 <div class="modal-content rounded-0">
+                                     <div class="modal-body">
+                                          <div class="row">
+                                              <div class="col-lg-6 offset-lg-3 d-flex">
+                                                <div class="form-group has-search w-100 mb-0 position-relative">
+                                                    <span class="fas fa-search form-control-feedback cursor-printer"></span>
+                                                    <input type="text" class="form-control py-4 rounded-0" placeholder="Search">
+                                                </div>
+                                                <button type="button" class="close mb-2 ml-3" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                              </div>
+                                          </div>
+                                     </div>
+                                 </div>
+                                 </div>
+                             </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </header>
+    <!-- Header Section End -->
+     <!-- Menu Section -->
+     <div class="container-fluid mt-2 mt-sm-2 mt-md-2 mt-lg-4">
+      <div class="d-block d-sm-block d-md-block d-lg-flex">
+          <div class="container-left">
+              <div class="category-menu" style="display: none;">
+                  <div class="menu-title d-none d-sm-none d-md-none d-lg-block"><i class="fas fa-bars mr-2"></i></i>Jewelry Collections</div>
+                  <ul class="list-unstyled">
+                      <li>
+                          <a href="#" class="more-menu">Accessory Types</a>
+                          <ul class="list-unstyled">
+                              <li>
+                                  <a href="#" class="more-menu">Chokers</a>
+                                  <ul class="list-unstyled">
+                                      <li><a href="#">Gold Choker</a></li>
+                                      <li><a href="#">Silver Choker</a></li>
+                                  </ul>
+                              </li>
+                              <li><a href="#">Pendants</a></li>
+                              <li><a href="#">Chains</a></li>
+                              <li><a href="#">Collar Necklaces</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#">Pearls</a></li>
+                      <li><a href="#">Silver Pieces</a></li>
+                      <li>
+                          <a href="#" class="more-menu">Chain Jewelry</a>
+                          <ul class="list-unstyled">
+                              <li><a href="#">Pendants</a></li>
+                              <li><a href="#">Bracelets</a></li>
+                              <li><a href="#">Belly Chains</a></li>
+                              <li><a href="#">Nose Rings</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#">Cufflinks</a></li>
+                      <li><a href="#">Black Cardamom Jewelry</a></li>
+                      <li><a href="#">Fancy Earrings</a></li>
+                      <li><a href="#">Platinum Pieces</a></li>
+                      <li><a href="#">Gold Items</a></li>
+                      <li><a href="#">Toe Rings</a></li>
+                      <li><a href="#">Featured Items</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="container-right"></div>
+      </div>
+  </div>
+  <!-- /Menu Section End -->
+    <!-- breadcrumbs -->
+      <nav class="container mt-4 mt-sm-4 mt-md-4 mt-lg-3 d-flex flex-wrap align-items-center gap-2 px-3">
+        <div class="d-flex align-items-center gap-2">
+          <a href="index.html">
+            <svg class="text-primary" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg">
+              <path d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"></path>
+            </svg>
+          </a>
+          <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-muted ml-2" height="18px" width="18px" xmlns="http://www.w3.org/2000/svg">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </div>
+        <div class="d-flex align-items-center gap-2 ml-1">
+          <a class="text-muted text-decoration-none pointer-events-none" href="#">Checkout</a>
+        </div>
+      </nav>
+    <!-- end breadcrumbs -->
+    <section class="checkout-section">
+      <div class="container mt-50 px-4">
+        <div class="row">
+          <div class="col-lg-7">
+            <form>
+            <div class="mb-4 box-title d-flex flex-wrap align-items-center justify-content-between border-bottom-2  pb-1">
+              <h1  class="h4 font-weight-bold text-dark position-relative m-0 title-under-line mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                Delivery Address
+              </h1>
+              <button class="btn  position-relative d-flex align-items-center"
+                data-toggle="modal" data-target="#saveAddressModal" type="button">
+                <svg class="mr-1" height="16" width="16" stroke="currentColor"
+                  fill="currentColor" stroke-width="0" baseProfile="tiny"
+                  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M22.262 10.468c-3.39-2.854-9.546-8.171-9.607-8.225l-.655-.563-.652.563c-.062.053-6.221 5.368-9.66 8.248-.438.394-.688.945-.688 1.509 0 1.104.896 2 2 2h1v6c0 1.104.896 2 2 2h12c1.104 0 2-.896 2-2v-6h1c1.104 0 2-.896 2-2 0-.598-.275-1.161-.738-1.532zm-8.262 9.532h-4v-5h4v5zm4-8l.002 8h-3.002v-6h-6v6h-3v-8h-3.001c2.765-2.312 7.315-6.227 9.001-7.68 1.686 1.453 6.234 5.367 9 7.681l-3-.001z"></path>
+                </svg>
+                Saved addresses
+              </button>
+            </div>
+            <div class="delivery-address">
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+                    <input type="text" class="form-control" placeholder="Name">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input type="email" class="form-control" placeholder="Email">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input type="text" class="form-control" placeholder="Phone">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input type="text" class="form-control"
+                      placeholder="Company Name (Optional)">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input type="text" class="form-control"
+                      placeholder="Company Address (Optional)">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input type="text" class="form-control"
+                      placeholder="House Number Or Street Number">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input type="text" class="form-control"
+                      placeholder="Apartment, unit etc. (optional)">
+                  </div>
+                  <div class="form-group col-md-12">
+                    <select class="nice-option form-control">
+                      <option value>Select your Country</option>
+                      <option>United Kingdom (UK)</option>
+                      <option>United States (US)</option>
+                      <option>Bangladesh</option>
+                      <option>Select Country</option>
+                      <option>Australia</option>
+                      <option>Canada</option>
+                      <option>China</option>
+                      <option>Morocco</option>
+                      <option>Saudi Arabia</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <input type="text" class="form-control"
+                      placeholder="City or Town">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <input type="text" class="form-control" placeholder="State">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <input type="text" class="form-control" placeholder="Zip">
+                  </div>
+                </div>
+            </div>
+            <div class="delivery-option mt-3">
+              <div class="mb-4 box-title d-flex flex-wrap align-items-center justify-content-between border-bottom-2  pb-1">
+              <h1 class="h4 font-weight-bold text-dark position-relative m-0 mb-1 title-under-line">
+                Delivery Options
+              </h1>
+            </div>
+             <div class="delivery-option-list">
+              <div class="position-relative d-flex cursor-pointer align-items-center rounded-lg bg-white shadow-sm custom-checkbox">
+                <label class="d-flex w-100 cursor-pointer m-0 align-items-center justify-content-between py-3 pl-4 pr-4" for="radio-standard">
+                  <span class="d-flex align-items-center">
+                    <svg class="d-none d-sm-block mr-3" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" height="30" width="30" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h16c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zM160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm320 0c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm80-208H416V144h44.1l99.9 99.9V256z"></path>
+                    </svg>
+                    <span>
+                      <span class="text-muted font-weight-bold">Standard</span>
+                      <span>Estimated delivery: Sunday, 20/09</span>
+                    </span>
+                  </span>
+                  <span class="text-uppercase text-success mr-4">free</span>
+                </label>
+                <input class="position-absolute top-0" type="radio" id="radio-standard" name="delivery-option">
+              </div>
+              
+              <div class="position-relative mt-4 d-flex cursor-pointer align-items-center rounded-lg bg-white shadow-sm custom-checkbox">
+                <label class="d-flex w-100 cursor-pointer  m-0 align-items-center justify-content-between py-3 pl-4 pr-4" for="radio-express">
+                  <span class="d-flex align-items-center">
+                    <svg class="d-none d-sm-block mr-3" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" height="30" width="30" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M112 0C85.5 0 64 21.5 64 48V96H16c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 272c8.8 0 16 7.2 16 16s-7.2 16-16 16H64 48c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 240c8.8 0 16 7.2 16 16s-7.2 16-16 16H64 16c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 208c8.8 0 16 7.2 16 16s-7.2 16-16 16H64V416c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H112zM544 237.3V256H416V160h50.7L544 237.3zM160 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm272 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z"></path>
+                    </svg>
+                    <span>
+                      <span class="text-muted font-weight-bold">Express</span>
+                      <span>Estimated delivery: Friday, 10/12</span>
+                    </span>
+                  </span>
+                  <span class="text-muted mr-4">$5.00</span>
+                </label>
+                <input class="position-absolute" type="radio" id="radio-express" name="delivery-option" style="right: 1rem;">
+              </div>
+             </div>
+             <div class="text-right mt-4">
+               <button type="button" class="btn btn-primary custom-btn-p px-4 font-weight-normal">Continue</button>
+             </div>
+            </div>
+            </form>
+          </div>
+          <div class="col-lg-5 mt-5 mt-sm-5 mt-md-0 mt-lg-0">
+            <div class="delivery-summary">
+              <div class="mb-4 box-title d-flex flex-wrap align-items-center justify-content-between border-bottom-2  pb-1">
+              <h1 class="h4 font-weight-bold text-dark position-relative m-0 mb-1 title-under-line">
+                Order Summary
+              </h1>
+            </div>
+
+            <div class="rounded bg-white shadow-sm p-3">
+              <div class="order-summary-item-box overflow-hidden">
+                <div class="row p-2">
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 px-2">
+                      <a href="#">
+                        <figure class=" rounded border">
+                          <img class="w-100" height="70" src="./assets/images/product/1.png" alt="img">
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="col-9 col-sm-9 col-md-9 col-lg-9 p-0">
+                      <div class="text-truncate">
+                        <a class="font-weight-bold text-default transition-all duration-300 hover:text-primary" href="#">
+                          24K Gold-Plated American Diamond-Studded Jewellery Set
+                        </a>
+                        <div class="mt-2 d-flex flex-row flex-wrap flex-sm-row align-items-sm-center flex-lg-column align-items-lg-start flex-xl-row align-items-xl-center">
+                          <span class="d-flex small mr-1">
+                            <b>Size:</b>
+                            XL
+                          </span>
+                          <svg class="d-none d-sm-block d-lg-none d-xl-block" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="10" width="10" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"></path>
+                          </svg>
+                          <span class="d-flex small mr-2">
+                            <b>Color:</b>
+                            <span class="ml-1 color-box"></span>
+                          </span>
+                          <svg class="d-none d-sm-block d-lg-none d-xl-block" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="10" width="10" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"></path>
+                          </svg>
+                          <span class="d-flex small mr-1">
+                            <b>Quantity:</b>
+                            1
+                          </span>
+                        </div>
+                        <div class="mt-2">
+                          <span class="font-weight-bold text-primary">$120.00</span>
+                          <span class="small text-muted">
+                            <s>$230.00</s>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="border-top pt-4">
+                <ul class="list-unstyled">
+                  <li class="d-flex justify-content-between">
+                    Items
+                    <span class="text-default">$690.00</span>
+                  </li>
+                  <li class="mt-2 d-flex justify-content-between">
+                    Discount
+                    <span class="text-danger">-$330.00</span>
+                  </li>
+                  <li class="mt-2 d-flex justify-content-between">
+                    Shipping
+                    <span class="text-default">$8.00</span>
+                  </li>
+                  <li class="mt-4 d-flex justify-content-between font-weight-bold text-uppercase text-default">
+                    Total to pay
+                    <span>$368.00</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- footer Section -->
+  <footer class="mt-100">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                  <p class="footer_title">About Information</p>
+                  <div class="mt-4 pr-5">
+                      <p class="address">Widgetify Inc,  456 Gadget Avenue,  Techtown, TX 67890, United States of America</p> 
+                      <p class="phone m-0">Call Us:<a href="tel:(987) 654-3210"> (987) 654-3210</a></p>
+                      <p class="email m-0 mt-2"><a href="mailto:info@example.com">info@example.com</a></p>
+                  </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                  <div class="footer_menu">
+                      <p class="footer_title">Quick Links</p>
+                      <ul class="m-0 p-0 list-unstyled">
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#">Return Policy</a></li>
+                          <li><a href="#">Privacy Policy</a></li>
+                          <li><a href="#">FAQ</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                  <div class="footer_menu">
+                      <p class="footer_title">Contact Us</p>
+                      <ul class="m-0 p-0 list-unstyled">
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#">Return Policy</a></li>
+                          <li><a href="#">Privacy Policy</a></li>
+                          <li><a href="#">FAQ</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <hr class="m-0 mt-2">
+          <div class="text-center py-3 text-white copyright" >
+              <span>Copyright © 2024. All Rights Reserved. Themes By TemplateRise</span>
+          </div>
+      </div>
+  </footer>
+
+  <!-- notification -->
+  <div class="notification">
+      <div class="d-flex position-relative">
+          <a href="#"><img src="./assets/images/product/1.png" alt="Rose gold pendant"></a>
+          <div class="notification-text">
+              <p class="m-0">Someone in New York, USA purchased a</p>
+              <h4 class="m-0"><a href="#" >Pendant in rose gold</a></h4>
+              <small class="text-primary">About 8 days ago</small>
+          </div>
+          <button class="close-button"><i class="fas fa-times"></i></button>
+      </div>
+  </div>
+  <!-- end notification -->
+  <!-- Modal -->
+  <div class="modal fade zoom" id="saveAddressModal" tabindex="-1" aria-labelledby="saveAddressModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg position-relative px-3">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h5 class="text-center h5 font-weight-bold text-dark" id="saveAddressModal">Select Address</h5>
+          <button class="btn btn-sm btn-primary position-absolute btn-close" data-dismiss="modal" aria-label="Close">
+            <svg class="" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="18px" width="18px" xmlns="http://www.w3.org/2000/svg">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+          <form>
+            <div class="position-relative d-flex w-100 cursor-pointer align-items-center rounded bg-white shadow-sm mb-3 custom-checkbox">
+              <label class="d-flex w-100 cursor-pointer align-items-center justify-content-between py-4 pl-4 pr-3" for="address-1">
+                <span class="d-flex align-items-center">
+                  <svg class="d-none d-sm-block mr-3 text-primary" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="32" width="32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M946.5 505L534.6 93.4a31.93 31.93 0 0 0-45.2 0L77.5 505c-12 12-18.8 28.3-18.8 45.3 0 35.3 28.7 64 64 64h43.4V908c0 17.7 14.3 32 32 32H448V716h112v224h265.9c17.7 0 32-14.3 32-32V614.3h43.4c17 0 33.3-6.7 45.3-18.8 24.9-25 24.9-65.5-.1-90.5z"></path>
+                  </svg>
+                  <span class="text-left">
+                    <span class="font-weight-bold text-secondary">Alita</span>
+                    <span>
+                      1234 Elm Street
+                      <br>Downtown
+                      <br>Los Angeles, CA
+                      <br>USA
+                    </span>                    
+                  </span>
+                </span>
+              </label>
+              <input class="position-absolute custom-radio cursor-pointer border border-secondary bg-white text-primary" type="radio" id="address-1" name="main-address">
+            </div>
+            <div class="position-relative d-flex w-100 cursor-pointer align-items-center rounded bg-white shadow-sm mb-3 custom-checkbox">
+              <label class="d-flex w-100 cursor-pointer align-items-center justify-content-between py-4 pl-4 pr-3" for="address-2">
+                <span class="d-flex align-items-center">
+                  <svg class="d-none d-sm-block mr-3 text-primary" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="32" width="32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M946.5 505L534.6 93.4a31.93 31.93 0 0 0-45.2 0L77.5 505c-12 12-18.8 28.3-18.8 45.3 0 35.3 28.7 64 64 64h43.4V908c0 17.7 14.3 32 32 32H448V716h112v224h265.9c17.7 0 32-14.3 32-32V614.3h43.4c17 0 33.3-6.7 45.3-18.8 24.9-25 24.9-65.5-.1-90.5z"></path>
+                  </svg>
+                  <span class="text-left">
+                    <span class="font-weight-bold text-secondary">Alita</span>
+                    <span>
+                      1234 Elm Street
+                      <br>Downtown
+                      <br>Los Angeles, CA
+                      <br>USA
+                    </span>                    
+                  </span>
+                </span>
+              </label>
+              <input class="position-absolute custom-radio cursor-pointer border border-secondary bg-white text-primary" type="radio" id="address-2" name="main-address">
+            </div>
+            <div class="text-right mt-4">
+              <button type="button" class="btn btn-primary custom-btn-p">Save changes</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/jquery-3.6.0.min.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/plugin/nice-select/jquery.nice-select.min.js"></script>
+  <script src="./assets/plugin/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+  <script src="./assets/plugin/nouislider/nouislider.min.js"></script>
+  <script src="./assets/plugin/slick/slick.min.js"></script>
+  <script src="./assets/js/swiper.min.js"></script>
+  <script src="./assets/js/easyzoom.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
